@@ -1,0 +1,22 @@
+.container {
+  cursor: pointer;
+  padding: 1.5rem 2rem;
+  max-width: 25rem;
+  background: #ff6464;
+  border: 2px solid #ff6464;
+  border-radius: 0.5rem;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.9rem;
+  text-align: center;
+  color: #ffffff;
+
+  transition: 0.5s ease-in-out;
+}
+
+.container:hover {
+  color: #ff6464;
+  background: #ffffff;
+}
