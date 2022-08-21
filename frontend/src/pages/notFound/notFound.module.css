@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+
+  position: relative;
+}
+
+.container img {
+  max-width: 50rem;
+}
+
+.container .text {
+    width: 25%;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    letter-spacing: 0.32px;
+    position: absolute;
+    bottom: 15%;
+}
