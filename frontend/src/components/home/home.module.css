@@ -1,0 +1,38 @@
+.container {
+  padding: 20rem 15rem;
+  padding-bottom: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+.container .left {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  width: 60%;
+}
+
+.container .left .title {
+  font-family: "Nunito";
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 6rem;
+  color: #21243d;
+}
+
+.container .left .subtitle {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #21243d;
+}
+
+.container .right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
