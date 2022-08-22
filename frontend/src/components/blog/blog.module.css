@@ -1,0 +1,37 @@
+.container {
+  margin-top: 5rem;
+  background: #edf7fa;
+  padding: 3rem 14rem;
+}
+
+.container .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .header .heading {
+  font-family: "Nunito";
+  font-weight: 500;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 6rem;
+  color: #21243d;
+}
+
+.container .header .btn {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #00a8cc;
+}
+
+.container .cards {
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10rem;
+}
